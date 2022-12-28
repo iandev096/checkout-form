@@ -1,0 +1,21 @@
+.textField {
+  display: flex;
+  flex-direction: column;
+  &__label {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+  }
+
+  &__input {
+    outline: none;
+    height: 2.25rem;
+    border-bottom: 2px solid rgba(69, 123, 157, 0.537);
+    transition: border-bottom-color 0.2s ease-in;
+
+    &:focus {
+      border-bottom-color: #1d3557;
+    }
+  }
+}

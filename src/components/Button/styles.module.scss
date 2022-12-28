@@ -1,0 +1,25 @@
+.button {
+  color: #1d3557;
+  background-color: #a8dadc;
+  padding-inline: 2.5rem;
+  padding-block: 0.75rem;
+  font-weight: 700;
+  width: 100%;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+
+  &:hover {
+    color: #f1faee;
+    background-color: #457b9d;
+  }
+
+  &:active {
+    color: #f1faee;
+    background-color: #1d3557;
+  }
+
+  &:disabled {
+    filter: grayscale(0.9);
+    cursor: not-allowed;
+  }
+}
